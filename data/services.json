@@ -1,0 +1,230 @@
+[
+  {
+    "id": "plumbing-services-jaipur",
+    "slug": "plumbing-services-jaipur",
+    "title": "Plumbing Services",
+    "shortDescription": "Leak repairs, tap fitting, pipe replacement, and bathroom plumbing by verified local plumbers.",
+    "longDescription": "Get trusted plumbing services in Jaipur for kitchen sinks, bathroom fittings, blocked drains, water tank overflow issues, and emergency leak fixes. Our local home repair services team is available across major Jaipur neighborhoods with same day service in Jaipur for urgent cases.",
+    "startingPrice": 299,
+    "category": "Plumber",
+    "duration": "45-90 min",
+    "rating": 4.8,
+    "image": "/images/services/plumbing.svg",
+    "popular": true,
+    "features": [
+      "Tap and faucet installation",
+      "Pipe leakage repair",
+      "Drain blockage removal",
+      "Bathroom fixture replacement"
+    ]
+  },
+  {
+    "id": "electrician-services-jaipur",
+    "slug": "electrician-services-jaipur",
+    "title": "Electrician Services",
+    "shortDescription": "Wiring checks, switchboard repair, fan installation, and electrical fault troubleshooting.",
+    "longDescription": "Book certified electricians in Jaipur, Rajasthan for safe electrical repairs, MCB trips, socket changes, fan fitting, and lighting installations. We provide transparent pricing and quick doorstep support for homes and apartments.",
+    "startingPrice": 349,
+    "category": "Electrician",
+    "duration": "30-75 min",
+    "rating": 4.7,
+    "image": "/images/services/electrical.svg",
+    "popular": true,
+    "features": [
+      "Switch and socket replacement",
+      "Fan and light installation",
+      "Short circuit inspection",
+      "MCB and DB servicing"
+    ]
+  },
+  {
+    "id": "carpenter-services-jaipur",
+    "slug": "carpenter-services-jaipur",
+    "title": "Carpentry Services",
+    "shortDescription": "Furniture repair, door alignment, wardrobe work, and custom wood fittings.",
+    "longDescription": "Hire experienced carpenters in Jaipur for bed repairs, drawer fixing, hinge replacement, and custom shelving. Our technicians handle both quick fixes and detailed woodwork for modern and traditional Indian homes.",
+    "startingPrice": 399,
+    "category": "Carpenter",
+    "duration": "60-120 min",
+    "rating": 4.8,
+    "image": "/images/services/carpentry.svg",
+    "popular": true,
+    "features": [
+      "Door and lock fitting",
+      "Furniture assembly",
+      "Cabinet and shelf repair",
+      "Polish and refinishing support"
+    ]
+  },
+  {
+    "id": "home-painting-jaipur",
+    "slug": "home-painting-jaipur",
+    "title": "Home Painting",
+    "shortDescription": "Interior and exterior wall painting with clean finish and color consultation.",
+    "longDescription": "Refresh your home with professional painters in Jaipur. We provide wall prep, putty work, primer coats, and premium paint application for apartments, villas, and offices across Rajasthan.",
+    "startingPrice": 1499,
+    "category": "Painter",
+    "duration": "Project-based",
+    "rating": 4.6,
+    "image": "/images/services/painting.svg",
+    "popular": false,
+    "features": [
+      "Interior wall painting",
+      "Exterior weatherproof coats",
+      "Texture and accent wall options",
+      "Post-work cleanup"
+    ]
+  },
+  {
+    "id": "ac-repair-service-jaipur",
+    "slug": "ac-repair-service-jaipur",
+    "title": "AC Repair & Service",
+    "shortDescription": "Split and window AC repair, gas refill, cooling issues, and seasonal maintenance.",
+    "longDescription": "Stay comfortable with fast AC repair in Jaipur. Our technicians diagnose cooling issues, compressor faults, drainage leakage, and provide regular AC servicing to improve performance and energy efficiency.",
+    "startingPrice": 499,
+    "category": "AC Technician",
+    "duration": "45-90 min",
+    "rating": 4.9,
+    "image": "/images/services/ac-repair.svg",
+    "popular": true,
+    "features": [
+      "AC cooling issue diagnosis",
+      "Gas charging and pressure check",
+      "Filter and coil cleaning",
+      "Window and split AC support"
+    ]
+  },
+  {
+    "id": "ro-water-purifier-service-jaipur",
+    "slug": "ro-water-purifier-service-jaipur",
+    "title": "RO Service & Repair",
+    "shortDescription": "RO filter changes, low water flow fix, and purifier maintenance by trained experts.",
+    "longDescription": "Book trusted RO service technicians in Jaipur for purifier installation, membrane replacement, and annual maintenance visits. Safe drinking water starts with timely filter checks and professional service.",
+    "startingPrice": 299,
+    "category": "RO Technician",
+    "duration": "30-60 min",
+    "rating": 4.7,
+    "image": "/images/services/ro-service.svg",
+    "popular": false,
+    "features": [
+      "RO filter replacement",
+      "Purifier deep cleaning",
+      "Leakage and low pressure fixes",
+      "TDS and taste check"
+    ]
+  },
+  {
+    "id": "home-cleaning-services-jaipur",
+    "slug": "home-cleaning-services-jaipur",
+    "title": "Home Deep Cleaning",
+    "shortDescription": "Kitchen, bathroom, and full-home deep cleaning services with eco-friendly products.",
+    "longDescription": "Professional home cleaning services in Jaipur for post-festival, move-in, and routine deep cleaning needs. Our team covers floors, surfaces, kitchen grease removal, and bathroom descaling.",
+    "startingPrice": 1999,
+    "category": "Cleaning",
+    "duration": "2-5 hours",
+    "rating": 4.8,
+    "image": "/images/services/home-cleaning.svg",
+    "popular": true,
+    "features": [
+      "Full-home deep cleaning",
+      "Bathroom sanitization",
+      "Kitchen degreasing",
+      "Sofa and mattress add-ons"
+    ]
+  },
+  {
+    "id": "appliance-repair-jaipur",
+    "slug": "appliance-repair-jaipur",
+    "title": "Appliance Repair",
+    "shortDescription": "Repair support for washing machines, refrigerators, microwaves, and geysers.",
+    "longDescription": "Get doorstep appliance repair in Jaipur by skilled technicians for most major brands. We handle common issues such as no power, water drainage problems, unusual noise, and thermostat failures.",
+    "startingPrice": 449,
+    "category": "Appliance",
+    "duration": "45-120 min",
+    "rating": 4.6,
+    "image": "/images/services/appliance-repair.svg",
+    "popular": true,
+    "features": [
+      "Washing machine service",
+      "Fridge cooling issue repair",
+      "Microwave and oven checks",
+      "Geyser troubleshooting"
+    ]
+  },
+  {
+    "id": "tile-flooring-work-jaipur",
+    "slug": "tile-flooring-work-jaipur",
+    "title": "Tile & Flooring Work",
+    "shortDescription": "Tile installation, floor leveling, re-grouting, and repair for damaged flooring.",
+    "longDescription": "Upgrade your interiors with tile and flooring services in Jaipur. From ceramic and vitrified tile fitting to grout restoration and floor repair, we deliver precision workmanship for homes and offices.",
+    "startingPrice": 2499,
+    "category": "Flooring",
+    "duration": "Project-based",
+    "rating": 4.5,
+    "image": "/images/services/tile-flooring.svg",
+    "popular": false,
+    "features": [
+      "Tile installation and replacement",
+      "Floor leveling",
+      "Grout cleaning and repair",
+      "Bathroom anti-skid tile work"
+    ]
+  },
+  {
+    "id": "modular-kitchen-work-jaipur",
+    "slug": "modular-kitchen-work-jaipur",
+    "title": "Modular Kitchen Work",
+    "shortDescription": "Design and installation of modular kitchen cabinets, storage, and fittings.",
+    "longDescription": "Plan a functional modular kitchen in Jaipur with custom layouts, durable hardware, and efficient storage solutions. Our team supports fresh installations as well as kitchen renovation upgrades.",
+    "startingPrice": 14999,
+    "category": "Kitchen",
+    "duration": "Project-based",
+    "rating": 4.7,
+    "image": "/images/services/modular-kitchen.svg",
+    "popular": true,
+    "features": [
+      "Custom cabinet design",
+      "Hardware and channel fitting",
+      "Countertop coordination",
+      "On-site measurements and planning"
+    ]
+  },
+  {
+    "id": "waterproofing-services-jaipur",
+    "slug": "waterproofing-services-jaipur",
+    "title": "Waterproofing Services",
+    "shortDescription": "Terrace, bathroom, and wall waterproofing to stop dampness and seepage.",
+    "longDescription": "Protect your property from leakage with professional waterproofing in Jaipur, Rajasthan. We treat terrace cracks, wall seepage, and bathroom moisture using tested coatings and sealants.",
+    "startingPrice": 2999,
+    "category": "Home Repair",
+    "duration": "Project-based",
+    "rating": 4.6,
+    "image": "/images/services/waterproofing.svg",
+    "popular": false,
+    "features": [
+      "Terrace waterproofing",
+      "Wall seepage treatment",
+      "Bathroom leakage control",
+      "Protective coating application"
+    ]
+  },
+  {
+    "id": "false-ceiling-repair-jaipur",
+    "slug": "false-ceiling-repair-jaipur",
+    "title": "False Ceiling & Gypsum Work",
+    "shortDescription": "Gypsum board installation, ceiling repairs, and lighting-friendly false ceiling designs.",
+    "longDescription": "Enhance room aesthetics with false ceiling and gypsum work in Jaipur. We offer installation, repair, and design support for homes looking for better insulation, lighting integration, and modern interiors.",
+    "startingPrice": 3499,
+    "category": "Interior",
+    "duration": "Project-based",
+    "rating": 4.5,
+    "image": "/images/services/false-ceiling.svg",
+    "popular": false,
+    "features": [
+      "Gypsum board installation",
+      "Ceiling crack repair",
+      "LED cove lighting support",
+      "Fresh painting after repair"
+    ]
+  }
+]
