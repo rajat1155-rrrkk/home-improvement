@@ -38,7 +38,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailProps) 
 
   return (
     <>
-      <section className="bg-gradient-to-b from-blue-50 to-white">
+      <section className="bg-gradient-to-b from-rose-50 to-white">
         <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 lg:px-8">
           <div className="relative min-h-[320px] overflow-hidden rounded-3xl shadow-xl">
             <Image
@@ -51,14 +51,14 @@ export default async function ServiceDetailPage({ params }: ServiceDetailProps) 
             />
           </div>
           <div className="self-center">
-            <span className="inline-flex rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700">
+            <span className="inline-flex rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold text-rose-700">
               {service.category}
             </span>
             <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-900">{service.title}</h1>
             <p className="mt-4 leading-7 text-slate-600">{service.longDescription}</p>
             <div className="mt-6 flex flex-wrap gap-4 text-sm text-slate-600">
               <p>
-                Starting at <span className="font-semibold text-blue-700">₹{service.startingPrice}</span>
+                Starting at <span className="font-semibold text-rose-700">₹{service.startingPrice}</span>
               </p>
               <p>Duration: {service.duration}</p>
               <p>Rating: {service.rating}/5</p>
@@ -66,13 +66,13 @@ export default async function ServiceDetailPage({ params }: ServiceDetailProps) 
             <div className="mt-8 flex gap-3">
               <Link
                 href="/booking"
-                className="rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
+                className="rounded-full bg-rose-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-rose-700"
               >
                 Book Now
               </Link>
               <Link
                 href="/services"
-                className="rounded-full border border-blue-200 bg-white px-6 py-3 text-sm font-semibold text-blue-700 transition hover:bg-blue-50"
+                className="rounded-full border border-rose-200 bg-white px-6 py-3 text-sm font-semibold text-rose-700 transition hover:bg-rose-50"
               >
                 Back to Services
               </Link>
@@ -87,7 +87,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailProps) 
           {service.features.map((feature) => (
             <li
               key={feature}
-              className="rounded-xl border border-blue-100 bg-white px-4 py-3 text-sm text-slate-700 shadow-sm"
+              className="rounded-xl border border-rose-100 bg-white px-4 py-3 text-sm text-slate-700 shadow-sm"
             >
               {feature}
             </li>

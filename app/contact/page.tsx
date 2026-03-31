@@ -15,7 +15,7 @@ export default function ContactPage() {
       />
       <section className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-6 md:grid-cols-2">
-          <article className="rounded-2xl border border-blue-100 bg-white p-6 shadow-sm">
+          <article className="rounded-2xl border border-rose-100 bg-white p-6 shadow-sm">
             <h2 className="text-xl font-semibold text-slate-900">Customer Support</h2>
             <ul className="mt-4 space-y-2 text-sm text-slate-600">
               <li>Phone: +91 90000 12345</li>
@@ -23,7 +23,7 @@ export default function ContactPage() {
               <li>Hours: 8:00 AM - 9:00 PM (All Days)</li>
             </ul>
           </article>
-          <article className="rounded-2xl border border-blue-100 bg-white p-6 shadow-sm">
+          <article className="rounded-2xl border border-rose-100 bg-white p-6 shadow-sm">
             <h2 className="text-xl font-semibold text-slate-900">Office Location</h2>
             <p className="mt-4 text-sm leading-6 text-slate-600">
               Jaipur HomeFix, Vaishali Nagar, Jaipur, Rajasthan, India

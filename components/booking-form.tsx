@@ -2,7 +2,7 @@ import { allServices } from "@/lib/services";
 
 export default function BookingForm() {
   return (
-    <form className="grid gap-5 rounded-2xl border border-blue-100 bg-white p-6 shadow-sm md:grid-cols-2 md:p-8">
+    <form className="grid gap-5 rounded-2xl border border-rose-100 bg-white p-6 shadow-sm md:grid-cols-2 md:p-8">
       <div className="md:col-span-1">
         <label htmlFor="name" className="mb-2 block text-sm font-medium text-slate-700">
           Name
@@ -12,7 +12,7 @@ export default function BookingForm() {
           name="name"
           type="text"
           placeholder="Enter your full name"
-          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-blue-300 transition focus:ring"
+          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-rose-300 transition focus:ring"
         />
       </div>
 
@@ -25,7 +25,7 @@ export default function BookingForm() {
           name="phone"
           type="tel"
           placeholder="Enter your phone number"
-          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-blue-300 transition focus:ring"
+          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-rose-300 transition focus:ring"
         />
       </div>
 
@@ -38,7 +38,7 @@ export default function BookingForm() {
           name="address"
           rows={4}
           placeholder="Enter your complete address in Jaipur"
-          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-blue-300 transition focus:ring"
+          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-rose-300 transition focus:ring"
         />
       </div>
 
@@ -49,7 +49,7 @@ export default function BookingForm() {
         <select
           id="serviceType"
           name="serviceType"
-          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-blue-300 transition focus:ring"
+          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-rose-300 transition focus:ring"
           defaultValue=""
         >
           <option value="" disabled>
@@ -71,14 +71,14 @@ export default function BookingForm() {
           id="preferredDate"
           name="preferredDate"
           type="date"
-          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-blue-300 transition focus:ring"
+          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none ring-rose-300 transition focus:ring"
         />
       </div>
 
       <div className="md:col-span-2">
         <button
           type="submit"
-          className="w-full rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
+          className="w-full rounded-xl bg-rose-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-rose-700"
         >
           Submit Booking Request
         </button>

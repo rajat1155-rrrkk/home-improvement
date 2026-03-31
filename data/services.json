@@ -9,7 +9,7 @@
     "category": "Plumber",
     "duration": "45-90 min",
     "rating": 4.8,
-    "image": "/images/services/plumbing.svg",
+    "image": "/images/services/plumbing.jpg",
     "popular": true,
     "features": [
       "Tap and faucet installation",
@@ -28,7 +28,7 @@
     "category": "Electrician",
     "duration": "30-75 min",
     "rating": 4.7,
-    "image": "/images/services/electrical.svg",
+    "image": "/images/services/electrical.jpg",
     "popular": true,
     "features": [
       "Switch and socket replacement",
@@ -47,7 +47,7 @@
     "category": "Carpenter",
     "duration": "60-120 min",
     "rating": 4.8,
-    "image": "/images/services/carpentry.svg",
+    "image": "/images/services/carpentry.jpg",
     "popular": true,
     "features": [
       "Door and lock fitting",
@@ -66,7 +66,7 @@
     "category": "Painter",
     "duration": "Project-based",
     "rating": 4.6,
-    "image": "/images/services/painting.svg",
+    "image": "/images/services/painting.jpg",
     "popular": false,
     "features": [
       "Interior wall painting",
@@ -85,7 +85,7 @@
     "category": "AC Technician",
     "duration": "45-90 min",
     "rating": 4.9,
-    "image": "/images/services/ac-repair.svg",
+    "image": "/images/services/ac-repair.jpg",
     "popular": true,
     "features": [
       "AC cooling issue diagnosis",
@@ -104,7 +104,7 @@
     "category": "RO Technician",
     "duration": "30-60 min",
     "rating": 4.7,
-    "image": "/images/services/ro-service.svg",
+    "image": "/images/services/ro-service.jpg",
     "popular": false,
     "features": [
       "RO filter replacement",
@@ -123,7 +123,7 @@
     "category": "Cleaning",
     "duration": "2-5 hours",
     "rating": 4.8,
-    "image": "/images/services/home-cleaning.svg",
+    "image": "/images/services/home-cleaning.jpg",
     "popular": true,
     "features": [
       "Full-home deep cleaning",
@@ -142,7 +142,7 @@
     "category": "Appliance",
     "duration": "45-120 min",
     "rating": 4.6,
-    "image": "/images/services/appliance-repair.svg",
+    "image": "/images/services/appliance-repair.jpg",
     "popular": true,
     "features": [
       "Washing machine service",
@@ -161,7 +161,7 @@
     "category": "Flooring",
     "duration": "Project-based",
     "rating": 4.5,
-    "image": "/images/services/tile-flooring.svg",
+    "image": "/images/services/tile-flooring.jpg",
     "popular": false,
     "features": [
       "Tile installation and replacement",
@@ -180,7 +180,7 @@
     "category": "Kitchen",
     "duration": "Project-based",
     "rating": 4.7,
-    "image": "/images/services/modular-kitchen.svg",
+    "image": "/images/services/modular-kitchen.jpg",
     "popular": true,
     "features": [
       "Custom cabinet design",
@@ -199,7 +199,7 @@
     "category": "Home Repair",
     "duration": "Project-based",
     "rating": 4.6,
-    "image": "/images/services/waterproofing.svg",
+    "image": "/images/services/waterproofing.jpg",
     "popular": false,
     "features": [
       "Terrace waterproofing",
@@ -218,7 +218,7 @@
     "category": "Interior",
     "duration": "Project-based",
     "rating": 4.5,
-    "image": "/images/services/false-ceiling.svg",
+    "image": "/images/services/false-ceiling.jpg",
     "popular": false,
     "features": [
       "Gypsum board installation",

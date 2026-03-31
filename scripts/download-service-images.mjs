@@ -51,11 +51,39 @@ async function searchImageUrl(query) {
 }
 
 async function download(url, fileName) {
-  const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
+  const res = await fetch(url, {
+    headers: {
+      "user-agent": "JaipurHomeFix/1.0 (contact: support@jaipurhomefix.in)",
+    },
+  });
   if (!res.ok) throw new Error(`Download failed: ${res.status}`);
   const arrayBuffer = await res.arrayBuffer();
   const buffer = Buffer.from(arrayBuffer);
   await writeFile(path.join(outputDir, fileName), buffer);
+}
+
+function wait(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function downloadWithRetry(url, fileName, maxAttempts = 4) {
+  let attempt = 1;
+  while (attempt <= maxAttempts) {
+    try {
+      await download(url, fileName);
+      return;
+    } catch (error) {
+      const message = String(error?.message || "");
+      const shouldRetry = message.includes("429") || message.includes("503");
+      if (!shouldRetry || attempt === maxAttempts) {
+        throw error;
+      }
+      await wait(1200 * attempt);
+      attempt += 1;
+    }
+  }
 }
 
 await mkdir(outputDir, { recursive: true });
@@ -67,8 +95,9 @@ for (const [fileName, query] of targets) {
       console.log(`No image found for ${fileName} (${query})`);
       continue;
     }
-    await download(imageUrl, fileName);
+    await downloadWithRetry(imageUrl, fileName);
     console.log(`Downloaded ${fileName} from ${imageUrl}`);
+    await wait(900);
   } catch (error) {
     console.log(`Failed ${fileName}: ${error.message}`);
   }

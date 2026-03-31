@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
 body {
+  background: #fffaf7;
   font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }

@@ -14,7 +14,7 @@ export default function SectionHeading({
   return (
     <div className={centered ? "text-center" : ""}>
       {eyebrow ? (
-        <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">{eyebrow}</p>
+        <p className="text-sm font-semibold uppercase tracking-wider text-rose-600">{eyebrow}</p>
       ) : null}
       <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">{title}</h2>
       {description ? (
